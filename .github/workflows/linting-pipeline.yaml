@@ -22,11 +22,11 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Install Linting Tools
-        run: npm install -g htmlhint stylelint
+      - name: Install Dependencies
+        run: npm install
 
       - name: Run HTML Lint
-        run: htmlhint "src/**/*.html" --config .htmlhintrc.json
+        run: npx htmlhint "src/**/*.html" --config .htmlhintrc.json
 
       - name: Run CSS Lint
         run: npx stylelint "styles/**/*.css" --config .stylelintrc.json --allow-empty-input
