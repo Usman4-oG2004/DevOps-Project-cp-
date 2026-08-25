@@ -1,0 +1,12 @@
+body {
+    color: #000000;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+#bio {
+    line-height: 1.5;
+}
