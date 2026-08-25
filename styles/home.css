@@ -1,0 +1,12 @@
+body {
+    color: #333333;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-transform: capitalize;
+}
+
+#introduction {
+    font-size: 16px;
+}
