@@ -1,0 +1,15 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Portfolio Website with CI/CD Linting Check",
+  "scripts": {
+    "lint:html": "htmlhint \"src/**/*.html\" --config .htmlhintrc.json",
+    "lint:css": "stylelint \"styles/**/*.css\" --config .stylelintrc.json",
+    "lint": "npm run lint:html && npm run lint:css"
+  },
+  "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "stylelint": "^15.11.0",
+    "stylelint-config-standard": "^34.0.0"
+  }
+}
